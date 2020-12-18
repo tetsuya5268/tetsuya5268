@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;}
+
+header{
+    background-image: url(../images/IMG_3562.JPG);
+}
+
+body{
+    background-color:#ccffff;
+    align-items: center;
+    /*↑ 縦方向をセンターに */
+}
+#icon{
+    width: 150px;
+    border: solid black;
+    /*↑ 周りの囲いの線の種類「solid(実線)」と色 */
+    border-width: 4px;
+    /* ↑周りの囲いの太さ */
+    border-radius: 50px;
+    /* ↑50%にすると丸くなる */
+    margin: 30px 10px -90px 640px;}
+
+#myname{
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px white;
+    margin: 30px 10px -90px 450px;}
+
+<!--背景カラー＋シンプルメニュー-->
+    ul{
+        display: table;
+        margin: 0 auto;
+        padding: 50px;
+        width: 70px;
+        text-align: center;
+        }
+
+        ul li{
+        display: table-cell;
+        min-width: 100px;
+        }
+
+        ul li a{
+        display: block;
+        width: 60%;
+        /*文字間の移動*/
+        padding: 10px 20px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        }
+
+        ul li.current{
+        background-color: #bedcf8;
+        }
+
+        ul li.current a{
+        color: #555;
+        }
+
+        ul li:hover{
+        background-color: #eef0a3;
+        }
+        
+        nav ul{
+            text-align: center;
+        }
+
+.top{
+    width:800px;
+    margin: auto;
+}
+
+.container{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 30px 60px 30px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 0px 0px;}
+
+.container h1{
+    padding: 0 30px;
+}
+
+.profile{
+    padding: 0 30px;
+    line-height: 30px;}
+
+hr{
+    margin: 20px 0px;}
+
+img{
+    width: 300px;}
+
+h2{
+    background-color: rgb(144, 255, 255);
+    width: 400px;
+    height: 30px;
+    text-align: center;}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    }
+
+footer{
+    bottom: 0;
+    background-color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding:20px;
+    font-size: 13px;}
+
